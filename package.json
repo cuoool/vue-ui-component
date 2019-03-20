@@ -1,7 +1,8 @@
 {
-  "name": "vue-ui-component",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@bonnak/vue-ui-component",
+  "version": "1.0.0",
+  "description": "Simple wrapper around component in vuejs",
+  "main": "index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -18,5 +19,15 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.5.21"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuoool/vue-ui-component.git"
+  },
+  "author": "Chea Bonnak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cuoool/vue-ui-component/issues"
+  },
+  "homepage": "https://github.com/cuoool/vue-ui-component#readme"
 }
