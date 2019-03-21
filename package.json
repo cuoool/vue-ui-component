@@ -29,5 +29,12 @@
   "bugs": {
     "url": "https://github.com/cuoool/vue-ui-component/issues"
   },
-  "homepage": "https://github.com/cuoool/vue-ui-component#readme"
+  "homepage": "https://github.com/cuoool/vue-ui-component#readme",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ]
 }
