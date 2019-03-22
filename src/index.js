@@ -2,7 +2,7 @@ import Components from './components'
 
 function install(Vue, opts = {}) {
   Object.keys(Components).forEach(name => {
-    Vue.component(name, Components[name])
+    Vue.component(`Base${name}`, Components[name])
   })
 }
 
