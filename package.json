@@ -1,7 +1,7 @@
 {
   "name": "@bonnak/vue-ui-component",
   "version": "0.0.1",
-  "description": "Simple wrapper around component in vuejs",
+  "description": "Simple vue.js components",
   "main": "dist/vue-ui-component.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
