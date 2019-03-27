@@ -11,11 +11,7 @@ export default {
       <thead>
         {context.props.columns.map((column, key) => {
           return (
-            <th
-              key={key}
-              style={showColumnStyle(column)}
-              class="bg-gray-200 p-2 font-normal"
-            >
+            <th key={key} style={showColumnStyle(column)}>
               <div class="flex items-center">
                 <span class="flex-grow">{showColumnName(column)}</span>
               </div>

@@ -21,7 +21,6 @@ export default {
                   ? record[context.props.keyName]
                   : index
               }
-              class="p-2 font-normal"
             >
               {context.scopedSlots.default({
                 record: record,

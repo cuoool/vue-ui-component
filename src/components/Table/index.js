@@ -19,7 +19,7 @@ export default {
   },
   render(h) {
     return (
-      <table class="table">
+      <table class="ui-table">
         <TableHeader columns={this.columns} />
         <TableBody
           records={this.records}
