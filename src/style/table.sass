@@ -5,8 +5,14 @@
     @apply .bg-gray-200
 
     th
-      @apply .p-2 .font-normal
+      @apply .p-2 .font-semibold .text-xs .text-gray-600 .uppercase
 
   tbody
-    td
-      @apply .p-2 .font-normal
+    tr
+      @apply .border-t .border-gray-200
+
+      &:hover
+        @apply bg-gray-100
+
+      td
+        @apply .p-2 .font-normal .text-base
