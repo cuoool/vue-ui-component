@@ -1,9 +1,10 @@
 <template>
-  <BaseTable :columns="columns" :records="records">
+  <BaseTable :columns="columns" :records="records" showCheckbox expandable>
     <template slot-scope="props">
       <td>{{ props.record.username }}</td>
       <td>{{ props.record.email }}</td>
     </template>
+    <div slot="expand">kk</div>
   </BaseTable>
 </template>
 

@@ -1,11 +1,14 @@
 .ui-table
-  @apply .rounded .w-full
+  @apply .table .rounded .w-full
 
   thead
     @apply .bg-gray-200
 
     th
       @apply .p-2 .font-semibold .text-xs .text-gray-600 .uppercase
+
+      &.ui-checkable
+        @apply .w-10 .text-center
 
   tbody
     tr
@@ -16,3 +19,6 @@
 
       td
         @apply .p-2 .font-normal .text-base
+
+        &.ui-checkable
+          @apply .w-10 .text-center
